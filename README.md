@@ -14,7 +14,7 @@ This repository contains scripts used for data collection and data analysis in t
 
 - **`figure6/`**: Scripts for analysis in Figure 6.
   - **`figure6a_and_6b.R`**: Analyzes relative proportions of treatment responses (NR and R) and constructs hierarchical clustering trees for cancer types.
-  - **`figure6c.R`**: Generates a bubble plot to visualize the relationship between cancer types and treatment combinations, highlighting response rates and sample sizes.
+  - **`figure6c.R`**: Generates a bubble plot to visualize the relationship between cancer types and treatment combinations.
 
 ## Usage
 Clone this repository:
