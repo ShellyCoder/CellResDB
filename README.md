@@ -7,7 +7,7 @@ This repository contains scripts used for data collection and data analysis in t
 - **`figure3/`**: Scripts for analysis in Figure 3.
   - **`figure3a.R`**: Creates a dendrogram with heatmap annotations showing sample attributes for cancer subtypes and tissues.
   - **`figure3b.R`**: Constructs a star tree visualization of sample relationships, organized by tissue and response types.
-  - **`figure3c.R`**: Produces a bar plot to show the frequency distribution of unique drug combinations sorted alphabetically.
+  - **`figure3c.R`**: Produces a bar plot to show the frequency distribution of treatment types sorted alphabetically.
   - **`figure3d.R`**: Visualizes individual drug usage distribution across therapeutic regimens with a horizontal bar chart.
   - **`figure3e.R`**: Summarizes and visualizes the number of unique cell types across datasets using a binned bar plot.
   - **`figure3f.R`**: Plots the distribution of cell counts (log10-transformed) using binned bar charts.
