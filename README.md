@@ -3,11 +3,11 @@ CellResDB: deciphering cancer therapy resistance via patient-level single-cell t
 
 This repository contains scripts used for data collection and data analysis in this work.
 
-## Directory Structure
-- **`Data Preprocessing`**:
+## Annotation
+- **`1.Data Preprocessing/`**:
   - **`01_Data preprocess.R`**: This script is responsible for preprocessing single-cell transcriptomic data. It includes steps such as normalization, filtering, and quality control to prepare the data for further analysis.
 
-- **`Downstream Analysis`**:
+- **`2.Downstream Analysis/`**:
   - **`02_UMAP and DEGs.R`**: This script performs UMAP analysis for dimensionality reduction and visualizes the results. It also conducts differential expression analysis to identify genes that are significantly expressed in different cell types or conditions.
   - **`03_TME composition.R`**: This script analyzes the tumor microenvironment (TME) composition, providing insights into the cellular makeup and interactions within the tumor ecosystem.
   - **`04_Functional enrichment.R`**: This script conducts functional enrichment analysis to identify biological processes and pathways that are affected in the differentially expressed genes.
