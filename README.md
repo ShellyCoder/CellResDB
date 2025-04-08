@@ -13,17 +13,17 @@ This repository contains scripts used for data collection and data analysis in t
   - **`04_Functional enrichment.R`**: This script conducts functional enrichment analysis to identify biological processes and pathways that are affected in the differentially expressed genes.
   - **`05_Cell communication.R`**: This script analyzes intercellular communication, exploring how different cell types interact with each other within the tumor microenvironment.
   - **`06_GSEA.R`**: This script performs GSEA enrichment analysis on paired response (R) and non-response (NR) samples.
-- **`figure3/`**: Scripts for analysis in Figure 3.
-  - **`figure3a.R`**: Creates a dendrogram with heatmap annotations showing sample attributes for cancer subtypes and tissues.
-  - **`figure3b.R`**: Constructs a star tree visualization of sample relationships, organized by tissue and response types.
-  - **`figure3c.R`**: Produces a bar plot to show the frequency distribution of treatment types sorted alphabetically.
-  - **`figure3d.R`**: Visualizes individual drug usage distribution across therapeutic regimens with a horizontal bar chart.
-  - **`figure3e.R`**: Summarizes and visualizes the number of unique cell types across datasets using a binned bar plot.
-  - **`figure3f.R`**: Plots the distribution of cell counts (log10-transformed) using binned bar charts.
+- **`figure2/`**: Scripts for analysis in Figure 3.
+  - **`figure2a.R`**: Creates a dendrogram with heatmap annotations showing sample attributes for cancer subtypes and tissues.
+  - **`figure2b.R`**: Constructs a star tree visualization of sample relationships, organized by tissue and response types.
+  - **`figure2c.R`**: Produces a bar plot to show the frequency distribution of treatment types sorted alphabetically.
+  - **`figure2d.R`**: Visualizes individual drug usage distribution across therapeutic regimens with a horizontal bar chart.
+  - **`figure2e.R`**: Summarizes and visualizes the number of unique cell types across datasets using a binned bar plot.
+  - **`figure2f.R`**: Plots the distribution of cell counts (log10-transformed) using binned bar charts.
 
 - **`figure6/`**: Scripts for analysis in Figure 6.
-  - **`figure6a_and_6b.R`**: Analyzes relative proportions of treatment responses (NR and R) and constructs hierarchical clustering trees for cancer types.
-  - **`figure6c.R`**: Generates a bubble plot to visualize the relationship between cancer types and treatment combinations.
+  - **`figure6a.R`**: Analyzes relative proportions of treatment responses (NR and R) and constructs hierarchical clustering trees for cancer types.
+  - **`figure6b.R`**: Generates a bubble plot to visualize the relationship between cancer types and treatment combinations.
 
 ## Usage
 Clone this repository:
