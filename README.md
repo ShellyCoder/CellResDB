@@ -12,6 +12,7 @@ This repository contains scripts used for data collection and data analysis in t
   - **`03_TME composition.R`**: This script analyzes the tumor microenvironment (TME) composition, providing insights into the cellular makeup and interactions within the tumor ecosystem.
   - **`04_Functional enrichment.R`**: This script conducts functional enrichment analysis to identify biological processes and pathways that are affected in the differentially expressed genes.
   - **`05_Cell communication.R`**: This script analyzes intercellular communication, exploring how different cell types interact with each other within the tumor microenvironment.
+  - **`06_GSEA.R`**: This script performs GSEA enrichment analysis on paired response (R) and non-response (NR) samples.
 - **`figure3/`**: Scripts for analysis in Figure 3.
   - **`figure3a.R`**: Creates a dendrogram with heatmap annotations showing sample attributes for cancer subtypes and tissues.
   - **`figure3b.R`**: Constructs a star tree visualization of sample relationships, organized by tissue and response types.
